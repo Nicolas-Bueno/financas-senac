@@ -1,0 +1,34 @@
+header {
+            background-color: #333; /* Cor de fundo do cabeçalho */
+            color: #fff; /* Cor do texto no cabeçalho */
+            padding: 10px 0; /* Espaçamento interno no topo e na parte inferior */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+#logo img {
+            width: 150px; /* Largura da imagem da logo */
+            height: auto; /* Altura automática para manter a proporção */
+            margin-left: 20px; /* Espaçamento à esquerda da logo */
+        }
+nav ul {
+            list-style: none; /* Remover marcadores de lista */
+            margin: 0; /* Remover margens */
+            padding: 0; /* Remover preenchimento */
+        }
+
+        nav li {
+            display: inline-block; /* Exibir os links em linha */
+            margin-right: 20px; /* Espaçamento à direita entre os links */
+        }
+
+        nav a {
+            text-decoration: none; /* Remover sublinhado dos links */
+            color: #fff; /* Cor do texto dos links */
+            font-weight: bold; /* Texto em negrito */
+        }
+
+        /* Estilizar links quando o mouse passar por cima */
+        nav a:hover {
+            color: #ff6600; /* Cor dos links ao passar o mouse */
+    }        
