@@ -70,3 +70,50 @@ nav a:hover {
     margin: 0 auto; /* Centraliza horizontalmente */
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura da seção */
 }
+
+#secao-inferior {
+    display: flex; /* Use flexbox para alinhar os blocos lado a lado */
+    justify-content: space-around; /* Espaço igual entre os blocos */
+    align-items: center; /* Centralize verticalmente os elementos */
+    background-color: #f2f2f2; /* Cor de fundo cinza mais clara */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.bloco {
+    text-align: center; /* Centralize o conteúdo horizontalmente */
+    width: 30%; /* Largura dos blocos (ajuste conforme necessário) */
+    margin: 0; /* Remova o espaçamento entre os blocos */
+}
+
+.bloco img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do bloco */
+}
+
+/* Estilo para os textos descritivos nos blocos */
+.bloco p {
+    margin: 10px 0; /* Espaçamento ao redor do texto */
+}
+
+/* Estilo para os links nos blocos */
+.bloco a {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: #0077cc; /* Cor do link */
+    font-weight: bold; /* Texto em negrito */
+    display: block; /* Transforma o link em um bloco para melhorar o clique */
+}
+
+.bloco button {
+    background-color: #0077cc; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remova a borda do botão */
+    border-radius: 5px; /* Borda arredondada */
+    font-weight: bold; /* Texto em negrito */
+    cursor: pointer; /* Altera o cursor para parecer um botão */
+    text-decoration: none; /* Remova o sublinhado do botão */
+}
+
+/* Estilo para os botões quando o mouse passar por cima */
+.bloco button:hover {
+    background-color: #0055aa; /* Cor de fundo alterada no hover */
+}
