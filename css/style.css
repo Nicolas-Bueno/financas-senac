@@ -119,3 +119,28 @@ nav a:hover {
 .bloco button:hover {
     background-color: #0055aa; /* Cor de fundo alterada no hover */
 }
+
+
+footer {
+    background-color: #47dab5; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto no footer */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 20px 0; /* Espaçamento interno no topo e na parte inferior */
+    display: flex; /* Use flexbox para alinhar os elementos */
+    justify-content: space-between; /* Espaço igual entre os elementos */
+    align-items: center; /* Centralize verticalmente os elementos */
+    font-weight: bold;
+}
+
+/* Estilo para os ícones */
+footer img, .fas {
+    width: 24px; /* Largura dos ícones*/
+    height: 24px; /* Altura dos ícones */
+    margin: 0 5px; /* Espaçamento entre os ícones e o texto */
+}
+
+/* Estilo para os ícones */
+.fas {
+    font-size: 20px; /* Tamanho do ícone */
+    color: #fff; /* Cor do ícone */
+}
