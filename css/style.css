@@ -1,5 +1,5 @@
 header {
-    background-color: #333;
+    background-color: #47dab5;
     /* Cor de fundo do cabeçalho */
     color: #fff;
     /* Cor do texto no cabeçalho */
@@ -11,11 +11,13 @@ header {
 }
 
 body {
-    background-color: #f2f2f2; /* Cor de fundo cinza mais clara */
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
 
 #logo img {
-    width: 150px;
+    width: 200px;
     /* Largura da imagem da logo */
     height: auto;
     /* Altura automática para manter a proporção */
@@ -50,7 +52,7 @@ nav a {
 
 /* Estilizar links quando o mouse passar por cima */
 nav a:hover {
-    color: #ff6600;
+    color: #00ffff;
     /* Cor dos links ao passar o mouse */
 }
 
