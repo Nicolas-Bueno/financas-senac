@@ -1,67 +1,65 @@
-
-
 #conteudo {
-    text-align: center; /* Centraliza o conteúdo horizontalmente */
-    padding: 20px; /* Espaçamento interno */
-    background-color: #f5f5f5; /* Cor de fundo da seção */
+    text-align: center; 
+    padding: 20px;
+    background-color: #f5f5f5; 
 }
 
 #conteudo h2 {
-    font-size: 24px; /* Tamanho da fonte */
-    margin-bottom: 20px; /* Espaçamento inferior */
-    color: #333; /* Cor do texto */
+    font-size: 24px;
+    margin-bottom: 20px; 
+    color: #333;
 }
 
 #banner {
-    margin: 0 auto; /* Centraliza horizontalmente */
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da seção */
+    margin: 0 auto; 
+    max-width: 100%; 
 }
 
 #secao-inferior {
-    display: flex; /* Use flexbox para alinhar os blocos lado a lado */
-    justify-content: space-around; /* Espaço igual entre os blocos */
-    align-items: center; /* Centralize verticalmente os elementos */
-    background-color: #f2f2f2; /* Cor de fundo cinza mais clara */
-    padding: 20px; /* Espaçamento interno */
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #f2f2f2; 
+    padding: 20px; 
 }
 
 .bloco {
-    text-align: center; /* Centralize o conteúdo horizontalmente */
-    width: 30%; /* Largura dos blocos (ajuste conforme necessário) */
-    margin: 0; /* Remova o espaçamento entre os blocos */
+    text-align: center;
+    width: 30%;
+    margin: 0; 
 }
 
 .bloco img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do bloco */
+    max-width: 100%; 
 }
 
-/* Estilo para os textos descritivos nos blocos */
+
 .bloco p {
-    margin: 10px 0; /* Espaçamento ao redor do texto */
+    margin: 10px 0; 
 }
 
 /* Estilo para os links nos blocos */
 .bloco a {
-    text-decoration: none; /* Remover sublinhado dos links */
-    color: #0077cc; /* Cor do link */
-    font-weight: bold; /* Texto em negrito */
-    display: block; /* Transforma o link em um bloco para melhorar o clique */
+    text-decoration: none;
+    color: #0077cc; 
+    font-weight: bold; 
+    display: block; 
 }
 
 .bloco button {
-    background-color: #0077cc; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto do botão */
-    padding: 10px 20px; /* Espaçamento interno do botão */
-    border: none; /* Remova a borda do botão */
-    border-radius: 5px; /* Borda arredondada */
-    font-weight: bold; /* Texto em negrito */
-    cursor: pointer; /* Altera o cursor para parecer um botão */
-    text-decoration: none; /* Remova o sublinhado do botão */
+    background-color: #0077cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    font-weight: bold; 
+    cursor: pointer;
+    text-decoration: none;
 }
 
-/* Estilo para os botões quando o mouse passar por cima */
+
 .bloco button:hover {
-    background-color: #0055aa; /* Cor de fundo alterada no hover */
+    background-color: #0055aa;
 }
 
 
