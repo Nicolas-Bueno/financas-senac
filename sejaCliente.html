@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/sejaCliente.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Finanças Senac</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="sejaCliente.html">Seja nosso cliente</a></li>
+                <li><a href="financiamento.html">Financiamento</a></li>
+                <li><a href="sobreNos.html">Sobre nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="conteudo">
+        <div id="banner">
+            <img src="img/banner.png" alt="banner-promo">
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making it look like readable English. Many
+                desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
+                search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
+                evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making it look like readable English. Many
+                desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
+                search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
+                evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>    
+        </div>
+    </section>
+
+     <section>
+        <!-- Conteúdo específico da página nova -->
+
+        <!-- Formulário de cadastro -->
+        <div class="formulario-cadastro">
+            <h2>Cadastro</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="tipo-servico">Tipo de Serviço Interessado:</label>
+                <select id="tipo-servico" name="tipo-servico">
+                    <option value="pessoal">Pessoal</option>
+                    <option value="consignado">Consignado</option>
+                </select>
+
+                <label for="aposentado">Aposentado:</label>
+                <div class="radio-buttons">
+                    <label><input type="radio" name="aposentado" value="sim"> Sim</label>
+                    <label><input type="radio" name="aposentado" value="nao"> Não</label>
+                </div>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Ícone de telefone-->
+        <div>
+            <i class="fas fa-phone"></i>
+            <span>(31)90101-0203</span>
+        </div>
+
+
+        <p>&copy; 2023 Finanças Senac - Todos os direitos reservados</p>
+
+        <!-- Ícone de e-mail -->
+        <div>
+            <i class="fas fa-envelope"></i>
+            <span>finance@email.com</span>
+        </div>
+    </footer>
+</body>
+
+</html>
