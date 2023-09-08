@@ -1,0 +1,81 @@
+header {
+    background-color: #47dab5;
+    /* Cor de fundo do cabeçalho */
+    color: #fff;
+    /* Cor do texto no cabeçalho */
+    padding: 10px 0;
+    /* Espaçamento interno no topo e na parte inferior */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+#logo img {
+    width: 200px;
+    /* Largura da imagem da logo */
+    height: auto;
+    /* Altura automática para manter a proporção */
+    margin-left: 20px;
+    /* Espaçamento à esquerda da logo */
+}
+
+nav ul {
+    list-style: none;
+    /* Remover marcadores de lista */
+    margin: 0;
+    /* Remover margens */
+    padding: 0;
+    /* Remover preenchimento */
+}
+
+nav li {
+    display: inline-block;
+    /* Exibir os links em linha */
+    margin-right: 20px;
+    /* Espaçamento à direita entre os links */
+}
+
+nav a {
+    text-decoration: none;
+    /* Remover sublinhado dos links */
+    color: #fff;
+    /* Cor do texto dos links */
+    font-weight: bold;
+    /* Texto em negrito */
+}
+
+/* Estilizar links quando o mouse passar por cima */
+nav a:hover {
+    color: #00ffff;
+    /* Cor dos links ao passar o mouse */
+}
+
+footer {
+    background-color: #47dab5; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto no footer */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 20px 0; /* Espaçamento interno no topo e na parte inferior */
+    display: flex; /* Use flexbox para alinhar os elementos */
+    justify-content: space-between; /* Espaço igual entre os elementos */
+    align-items: center; /* Centralize verticalmente os elementos */
+    font-weight: bold;
+}
+
+/* Estilo para os ícones */
+footer img, .fas {
+    width: 24px; /* Largura dos ícones*/
+    height: 24px; /* Altura dos ícones */
+    margin: 0 5px; /* Espaçamento entre os ícones e o texto */
+}
+
+/* Estilo para os ícones */
+.fas {
+    font-size: 20px; /* Tamanho do ícone */
+    color: #fff; /* Cor do ícone */
+}

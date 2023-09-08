@@ -1,0 +1,101 @@
+/* Estilo para a seção */
+section {
+    display: flex; 
+    justify-content: space-around; 
+    padding: 20px;
+    align-items: center;
+}
+
+.bloco{
+    text-align: center;
+    margin: 0;
+    width: 30%;
+}
+
+/* Estilo para as imagens */
+.bloco img {
+    max-width: 90%;
+}
+
+/* Estilo para os títulos */
+.bloco h2 {
+    font-size: 18px;
+    margin: 10px 0; 
+}
+
+/* Estilo para o texto */
+.bloco p {
+    font-size: 14px;
+    margin: 10px 0; 
+}
+
+/* Estilo para os botões */
+.bloco a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.simulacao-emprestimo {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.simulacao-emprestimo label, .simulacao-emprestimo input, .simulacao-emprestimo select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.simulacao-emprestimo button {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.simulacao-emprestimo button:hover {
+    background-color: #0055aa;
+}
+
+.perguntas-frequentes {
+    width: 50%;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.perguntas-frequentes h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.perguntas-frequentes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.perguntas-frequentes li {
+    margin-bottom: 20px; 
+}
+
+.perguntas-frequentes h3 {
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+.perguntas-frequentes p {
+    font-size: 16px; 
+}
+

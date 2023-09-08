@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/finan.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Finanças Senac</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="sejaNossoCliete.html">Seja nosso cliente</a></li>
+                <li><a href="financiamento.html">Financiamento</a></li>
+                <li><a href="sobreNos.html">Sobre nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="bloco">
+            <img src="img/image4.png" alt="imagem 4">
+            <h2>Empréstimo Pessoal</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+            </p>            
+            <a href="#">Botão 1</a>
+
+        </div>
+
+        <div class="bloco">
+            <img src="img/image5.png" alt="imagem 5">
+            <h2>Empréstimo Consignado</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+            </p>            
+            <a href="#">Botão 2</a>
+        </div>
+
+    </section>
+
+    <section>
+
+        <!-- Formulário de simulação de empréstimo -->
+        <div class="simulacao-emprestimo">
+            <h2>Simulação de Empréstimo</h2>
+            <p>Selecione as opções abaixo:</p>
+
+            <label for="descricao">Descrição:</label>
+            <input type="text" id="descricao" name="descricao" required>
+
+            <label for="valor">Valor do Empréstimo:</label>
+            <input type="number" id="valor" name="valor" required>
+
+            <label for="meses">Número de Meses:</label>
+            <select id="meses" name="meses">
+                <option value="12">12 meses</option>
+                <option value="24">24 meses</option>
+                <option value="36">36 meses</option>
+            </select>
+
+            <label for="resultado">Resultado:</label>
+            <input type="text" id="resultado" name="resultado" readonly>
+
+            <button type="submit">Seja Nosso Cliente</button>
+        </div>
+
+        <!-- Perguntas frequentes -->
+        <div class="perguntas-frequentes">
+            <h2>Perguntas Frequentes</h2>
+            <ul>
+                <li>
+                    <h3>Como faço para solicitar um empréstimo?</h3>
+                    <p>Para solicitar um empréstimo, preencha o formulário de simulação ao lado e clique em "Seja Nosso Cliente".</p>
+                </li>
+                <li>
+                    <h3>Qual é o valor mínimo para empréstimos?</h3>
+                    <p>O valor mínimo para empréstimos é R$ 1.000,00.</p>
+                </li>
+                <li>
+                    <h3>Quais são as taxas de juros?</h3>
+                    <p>As taxas de juros variam de acordo com o valor do empréstimo e o prazo de pagamento.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+        
+
+    <!-- Footer -->
+    <footer>
+        <!-- Ícone de telefone e texto -->
+        <div>
+            <i class="fas fa-phone"></i>
+            <span>(31)90101-0203</span>
+        </div>
+
+        <!-- Texto no centro -->
+        <p>&copy; 2023 Finanças Senac - Todos os direitos reservados</p>
+
+        <!-- Ícone de e-mail e texto -->
+        <div>
+            <i class="fas fa-envelope"></i>
+            <span>finance@email.com</span>
+        </div>
+    </footer>
+
+</body>
+</html>
