@@ -48,7 +48,7 @@ section {
 
 /* Estilo para o botão */
 .formulario-cadastro button {
-    background-color: #0077cc;
+    background-color: #47dab5;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -57,5 +57,5 @@ section {
 }
 
 .formulario-cadastro button:hover {
-    background-color: #0055aa;
+    background-color: #00ffff;
 }

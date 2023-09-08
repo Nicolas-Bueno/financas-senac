@@ -33,7 +33,7 @@ section {
 .bloco a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0077cc;
+    background-color: #47dab5;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -55,7 +55,7 @@ section {
 }
 
 .simulacao-emprestimo button {
-    background-color: #0077cc;
+    background-color: #47dab5;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -64,7 +64,7 @@ section {
 }
 
 .simulacao-emprestimo button:hover {
-    background-color: #0055aa;
+    background-color: #00ffff;
 }
 
 .perguntas-frequentes {
